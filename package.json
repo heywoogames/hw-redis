@@ -1,10 +1,12 @@
 {
   "name": "@heywoogames/hw-redis",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=20"
+  },
   "description": "hw redis plugin",
   "main": "index.js",
   "scripts": {
-    "test1": "exit 0",
     "test": "node example/test.js"
   },
   "keywords": [
