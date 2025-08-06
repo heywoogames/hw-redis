@@ -4,8 +4,8 @@
   "description": "hw redis plugin",
   "main": "index.js",
   "scripts": {
-    "test": "exit 0",
-    "test1": "node example/test.js"
+    "test1": "exit 0",
+    "test": "node example/test.js"
   },
   "keywords": [
     "hw",
