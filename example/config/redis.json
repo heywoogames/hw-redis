@@ -1,0 +1,19 @@
+{
+    "default": "master",
+    "instance": {
+        "master" :{
+            "host" : "127.0.0.1",
+            "port" : 6379,
+            "username" : "",
+            "password" : "111111",
+            "db": 0
+        },
+        "slave" :{
+            "host" : "127.0.0.1",
+            "port" : 6379,
+            "username" : "",
+            "password" : "111111",
+            "db": 1
+        }
+    }
+}

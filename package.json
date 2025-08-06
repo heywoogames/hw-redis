@@ -1,0 +1,27 @@
+{
+  "name": "@heywoogames/hw-redis",
+  "version": "1.0.0",
+  "description": "hw redis plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "node example/test.js"
+  },
+  "keywords": [
+    "hw",
+    "redis"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heywoogames/hw-redis.git"
+  },
+  "author": "shudingbo",
+  "publishConfig": {
+    "@heywoogames:registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "@heywoogames/hw-base": "^1.0.0",
+    "ioredis": "^5.7.0"
+  },
+  "devDependencies": {
+  }
+}

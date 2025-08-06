@@ -1,0 +1,13 @@
+{
+    "mservice":{
+        "enable": false
+    },
+    "plugins": {
+        "redis": {
+            "path": "../index.js",
+            "enable": true,
+            "alias": "_rd",
+            "cfgName": "redis"
+        }
+    } 
+}
